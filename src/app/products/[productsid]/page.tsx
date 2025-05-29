@@ -1,7 +1,12 @@
+import { notFound } from "next/navigation";
 export default async function ProductDetail(
-  { params }: { params: { productsid: string } }
+  { params }: { params: { productsid: string } }  
 ) {
   const productsid = params.productsid;
+
+  if (parseInt(productsid) > 1000) {
+    return notFound();
+  }
 
   return (
     <>
