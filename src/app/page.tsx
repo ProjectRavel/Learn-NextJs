@@ -9,6 +9,8 @@ export default function Home() {
       <div className="flex space-x-4">
         <Link href="/about" className="px-4 py-2 bg-white text-slate-950 rounded hover:bg-slate-100 hover:scale-105">About</Link>
         <Link href="/products" className="px-4 py-2 bg-white text-slate-950 rounded hover:bg-slate-100 hover:scale-105">Products</Link>
+        <Link href="/login" className="px-4 py-2 bg-white text-slate-950 rounded hover:bg-slate-100 hover:scale-105">Login</Link>
+        <Link href="/register" className="px-4 py-2 bg-white text-slate-950 rounded hover:bg-slate-100 hover:scale-105">Register</Link>
       </div>
       <div className="mt-8">
         <h2 className="text-2xl font-semibold">Features</h2>
